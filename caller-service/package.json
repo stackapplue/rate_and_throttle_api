@@ -1,0 +1,21 @@
+{
+  "name": "echo-service",
+  "version": "1.0.0",
+  "description": "Echo Service with global rate limiting and professional logging",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "rate-limit",
+    "echo",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.16.1",
+    "express": "^4.19.2",
+    "winston": "^3.13.0"
+  }
+}
